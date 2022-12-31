@@ -1,0 +1,25 @@
+{
+    "name": "The kitchen light",
+    "device_id": "kitchen-light",
+    "device_stats_interval": 60,
+    "wifi": {
+      "ssid": "DO1PSY-TMP",
+      "password": "merleistgoldig"
+    },
+    "mqtt": {
+      "host": "192.168.47.6",
+      "port": 1883,
+      "base_topic": "home/",
+      "auth": true,
+      "username": "schnake",
+      "password": "schnake",
+      "ssl": false,
+      "ssl_fingerprint": "a27992d3420c89f293d351378ba5f5675f74fe3c"
+    },
+    "ota": {
+      "enabled": true
+    },
+    "settings": {
+      "percentage": 55
+    }
+  }

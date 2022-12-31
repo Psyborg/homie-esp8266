@@ -15,8 +15,6 @@ void setup() {
   Serial << endl << endl;
   
   Homie_setFirmware("awesome-relay", "1.0");
-
-
   
   debugln("Firmware set!");
   debugln("Entering Homie.setup()");
